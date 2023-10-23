@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string-array name="Country">
+        <item>Indonesia</item>
+        <item>Australia</item>
+        <item>Singapore</item>
+        <item>Malaysia</item>
+    </string-array>
+</resources>
