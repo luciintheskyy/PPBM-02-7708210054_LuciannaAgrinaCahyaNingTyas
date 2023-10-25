@@ -25,7 +25,7 @@
                 android:paddingBottom="8dp">
 
                 <ImageView
-                    android:id="@+id/imageView3"
+                    android:id="@+id/imggradient"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/top_background"
@@ -97,7 +97,7 @@
                         android:orientation="vertical">
 
                         <ImageView
-                            android:id="@+id/imageView6"
+                            android:id="@+id/imgvidcall"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="8dp"
@@ -123,7 +123,7 @@
                         android:orientation="vertical">
 
                         <ImageView
-                            android:id="@+id/imageView6"
+                            android:id="@+id/imgnotification"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="8dp"
@@ -131,7 +131,7 @@
                             tools:layout_marginBottom="8dp" />
 
                         <TextView
-                            android:id="@+id/textView6"
+                            android:id="@+id/txtnotification"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Notification"
@@ -149,7 +149,7 @@
                         android:orientation="vertical">
 
                         <ImageView
-                            android:id="@+id/imageView6"
+                            android:id="@+id/imgvc"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="8dp"
@@ -157,7 +157,7 @@
                             tools:layout_marginBottom="8dp" />
 
                         <TextView
-                            android:id="@+id/textView6"
+                            android:id="@+id/txtvidcall"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="Voice Call"
@@ -169,7 +169,7 @@
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <EditText
-                android:id="@+id/editTextText6"
+                android:id="@+id/editTextTextPersonName"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginStart="32dp"
@@ -180,8 +180,10 @@
                 android:drawableEnd="@drawable/search_icon"
                 android:drawablePadding="8dp"
                 android:ems="10"
-                android:inputType="text"
-                android:padding="8dp" />
+                android:inputType="textPersonName"
+                android:padding="8dp"
+                android:text="Name"
+                android:textColor="#FFFFFF" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
@@ -282,7 +284,7 @@
                             android:background="@drawable/white_background">
 
                             <ImageView
-                                android:id="@+id/imageView10"
+                                android:id="@+id/img_Map"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="16dp"
@@ -297,7 +299,7 @@
                         </androidx.constraintlayout.widget.ConstraintLayout>
 
                         <TextView
-                            android:id="@+id/textView10"
+                            android:id="@+id/txtmap"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="8dp"
@@ -321,7 +323,7 @@
                             android:background="@drawable/white_background">
 
                             <ImageView
-                                android:id="@+id/imageView10"
+                                android:id="@+id/imgchat"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="16dp"
@@ -336,7 +338,7 @@
                         </androidx.constraintlayout.widget.ConstraintLayout>
 
                         <TextView
-                            android:id="@+id/textView10"
+                            android:id="@+id/txtchat"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="8dp"
@@ -360,7 +362,7 @@
                             android:background="@drawable/white_background">
 
                             <ImageView
-                                android:id="@+id/imageView10"
+                                android:id="@+id/imgreport"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="16dp"
@@ -375,7 +377,7 @@
                         </androidx.constraintlayout.widget.ConstraintLayout>
 
                         <TextView
-                            android:id="@+id/textView10"
+                            android:id="@+id/txtreport"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="8dp"
@@ -406,7 +408,7 @@
                             android:background="@drawable/white_background">
 
                             <ImageView
-                                android:id="@+id/imageView10"
+                                android:id="@+id/imgcalendar"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="16dp"
@@ -421,7 +423,7 @@
                         </androidx.constraintlayout.widget.ConstraintLayout>
 
                         <TextView
-                            android:id="@+id/textView10"
+                            android:id="@+id/txtcalendar"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="8dp"
@@ -445,7 +447,7 @@
                             android:background="@drawable/white_background">
 
                             <ImageView
-                                android:id="@+id/imageView10"
+                                android:id="@+id/imgtips"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="16dp"
@@ -460,7 +462,7 @@
                         </androidx.constraintlayout.widget.ConstraintLayout>
 
                         <TextView
-                            android:id="@+id/textView10"
+                            android:id="@+id/txttips"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="8dp"
@@ -484,7 +486,7 @@
                             android:background="@drawable/white_background">
 
                             <ImageView
-                                android:id="@+id/imageView10"
+                                android:id="@+id/imgsettings"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="16dp"
@@ -499,7 +501,7 @@
                         </androidx.constraintlayout.widget.ConstraintLayout>
 
                         <TextView
-                            android:id="@+id/textView10"
+                            android:id="@+id/txtsettings"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="8dp"
@@ -523,7 +525,7 @@
                             android:background="@drawable/white_background">
 
                             <ImageView
-                                android:id="@+id/imageView10"
+                                android:id="@+id/img_other"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="16dp"
@@ -538,7 +540,7 @@
                         </androidx.constraintlayout.widget.ConstraintLayout>
 
                         <TextView
-                            android:id="@+id/textView10"
+                            android:id="@+id/txtother"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="8dp"
